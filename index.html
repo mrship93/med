@@ -16,6 +16,7 @@
 	
 	
 	<body>
+	<!-- Скрипт выравнивая колонок по высоте -->
 		<script type="text/javascript">
     function setEqualHeight(columns) {
         var tallestcolumn = 0;
@@ -31,12 +32,14 @@
     }
     $(document).ready(function() {
      setEqualHeight($(".item_bg"));
-    });
+    });   
 </script>
-
+		<!-- Обертка -->
 		<div class="wrapper clearfix ">
+		<!-- Начало шапки -->
 			<header >
 				<div class="header_top clearfix ">
+				
 					<div class="logo">
 						<img alt="" src="img/logo.png" width="250" height="50">
 					</div>
@@ -96,7 +99,7 @@
 				<div class="banner">
 					
 				</div>
-
+		<!-- Хлебные крошки -->
 				<div class="bradcrumbs">
 					Главная > Питание
 				</div>
@@ -104,6 +107,7 @@
 
 
 			</header>
+			<!-- Выбор области -->
 
 			<div class="bol clearfix">
 				<p>Нажмите на беспокоющую Вас область, чтобы мы могли вам помочь</p>
@@ -130,8 +134,8 @@
 				</div>
 			</div>
 		</div>
-
-		<section class="title clearfix">
+	<!-- Инофрмация об органах -->
+		<div class="title clearfix">
 			
 			
 				<p class="title_p">Определение:</p>
@@ -156,8 +160,8 @@
 			</div>
 			
 
-		</section>
-
+		</div>
+	<!-- Лечение -->
 		<div class="lechenie">
 			<p class="title_p">Лечение:</p>
 			<div class="lechenie_bg">
@@ -193,7 +197,7 @@
 
 		</div>
 
-
+	<!-- План питания -->
 		<div class="plan clearfix">
 			<h2>Ваш индивидуальный план питания</h2>
 			<p class="plan_p">Выберите интересующий Вас раздел и получите меню питания прямо сейчас</p>
