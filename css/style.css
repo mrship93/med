@@ -17,7 +17,7 @@ body {
 	
 	
 }
-
+/* Шапка */
 .header_top div {
 	width:33%;
 	float:left;
@@ -77,6 +77,8 @@ body {
     right: -15px;
 }
 
+/*Меню */
+
 .menu {
 height:40px;
 background-color:#00679C;
@@ -101,6 +103,7 @@ background-color:#00679C;
 	margin:0px 0 0 20px;
 }
 
+/* Баннер */
 
 .banner {
 	margin-top:3%;
@@ -110,11 +113,15 @@ background-color:#00679C;
 	background-size:contain;
 }
 
+/* Крошки */
+
 .bradcrumbs {
 	margin-top:3%;
 	color:#C1C1C1;
 	font-size:1em;
 }
+
+/* Выбор области */
 
 .bol {
 	margin-top:3%;
@@ -154,6 +161,8 @@ background-color:#00679C;
 	margin-top:20px;
 }
 
+
+/* Информация */
 
 .title {
 	width:100%;
@@ -214,6 +223,8 @@ background-color:#00679C;
 	
 }
 
+/* Лечение */
+
 .lechenie {
 	width:100%;
 	
@@ -247,14 +258,7 @@ background-color:#00679C;
  -khtml-opacity: 0.7;
 }
 
-.relative {
-	position:relative;
-}
-.absolute {
 
-
-	
-}
 
 .prev {
 	   width: 35px;
@@ -272,6 +276,9 @@ background-color:#00679C;
     top: 45%;
     right: 5%;
 }
+
+
+/* Сопутствующие заболевания */
 
 .green {
 	width:100%;
@@ -309,6 +316,9 @@ background-color:#00679C;
 	color:#678419;
 	text-decoration:underline;
 }
+
+
+/* План лечения */
 
 .plan {
 	background:url(../img/plan.jpg);
